@@ -63,7 +63,7 @@ bool passwordVisible=false;
             key: Formkey,
             child: Column(
               children: <Widget>[
-                Image.asset('lib/assets/abc.jpg',
+                Image.asset('lib/assets/xyz.jpg',
                     alignment: Alignment.topCenter, width: 200, height: 300),
           
                 Padding(
@@ -217,13 +217,7 @@ bool passwordVisible=false;
                       Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Register()));
                     },
-          
-          
-          
-                    )
-          
-            
-          
+                     )
                   ],
                    mainAxisAlignment: MainAxisAlignment.center,
                 
